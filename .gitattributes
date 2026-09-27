@@ -1,7 +1,7 @@
-# Benchmark checksums intentionally cover the original Windows fixture bytes.
-benchmarks/*.json text eol=crlf
-benchmarks/*.md text eol=crlf
-benchmarks/**/*.json text eol=crlf
-benchmarks/**/*.md text eol=crlf
-benchmarks/**/*.txt text eol=crlf
+# Benchmark checksums cover canonical LF bytes on every operating system.
+benchmarks/*.json text eol=lf
+benchmarks/*.md text eol=lf
+benchmarks/**/*.json text eol=lf
+benchmarks/**/*.md text eol=lf
+benchmarks/**/*.txt text eol=lf
 benchmarks/assets/*.png binary
