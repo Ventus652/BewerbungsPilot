@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Working Student Software Development (TEST)</title></head>
+<body>
+<div id="cookie"><p>We use cookies.</p><button onclick="document.getElementById('cookie').remove()">Accept all</button>
+<button onclick="document.getElementById('cookie').remove();window.cookieChoice='necessary'">Only necessary</button></div>
+<h1>Apply for Working Student Software Development (FICTIONAL TEST PAGE)</h1>
+<form id="apply" onsubmit="event.preventDefault(); window.submissions=(window.submissions||0)+1; document.getElementById('apply').style.display='none'; document.getElementById('done').style.display='block';">
+  <label for="first">First name *</label><input id="first" name="first_name" required>
+  <label for="last">Last name *</label><input id="last" name="last_name" required>
+  <label for="email">Email *</label><input id="email" type="email" name="email" required>
+  <label for="phone">Phone</label><input id="phone" type="tel" name="phone">
+  <label for="city">City *</label><input id="city" name="city" required>
+  <label for="gender">Gender *</label><select id="gender" name="gender" required><option value="">Please select</option><option>Male</option><option>Female</option><option>Diverse</option><option>Undefined</option></select>
+  <label for="source">How did you find this position? *</label><select id="source" required><option value="">Please select</option><option>Direct Search</option><option>Jobportal</option><option>LinkedIn</option></select>
+  <label for="visa">Visa requirements *</label><select id="visa" required><option value="">Please select</option><option>Yes, I need a visa</option><option>No, I do not need a visa</option><option>I have a valid visa</option></select>
+  <fieldset><legend>Do you have previous experience using JAVA programming language? *</legend>
+    <label><input type="radio" name="java" value="yes" required> Yes</label><label><input type="radio" name="java" value="no"> No</label></fieldset>
+  <label for="available">Available from *</label><input id="available" type="date" required>
+  <label for="grad">Expected Graduation Date *</label><input id="grad" type="date" required>
+  <label><input type="checkbox" id="geo" required> I am aware that only students living in Frankfurt and nearby will be considered for the position</label>
+  <label for="why">Why do you think that you are the right fit for this position? *</label><textarea id="why" required></textarea>
+  <label for="cv">CV *</label><input id="cv" type="file" required>
+  <label for="other">Other</label><input id="other" type="file">
+  <button type="submit">Submit Application</button>
+</form>
+<div id="done" style="display:none"><h2>THANK YOU - We have received your application and will contact you shortly!</h2></div>
+</body></html>

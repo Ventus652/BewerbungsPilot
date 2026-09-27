@@ -1,0 +1,28 @@
+{
+  "case_id": "A04",
+  "company": "CloudAxis Test GmbH",
+  "title": "Senior Cloud Platform Lead (m/w/d)",
+  "location": "Stuttgart (vor Ort)",
+  "employment_type": "Vollzeit/Senior",
+  "weekly_hours": "40 (verpflichtend)",
+  "technologies_required": [
+    "AWS (Expertise)",
+    "Kubernetes (Expertise)"
+  ],
+  "required_languages": [
+    "Deutsch: C1"
+  ],
+  "publication_date": "2026-09-24",
+  "hard_requirements": [
+    "5 Jahre einschlägige Berufserfahrung",
+    "40 Std./Woche",
+    "AWS/Kubernetes-Expertise",
+    "Stuttgart vor Ort"
+  ],
+  "unknown_fields": [],
+  "evidence_fragments": [
+    "Vollzeit 40 Stunden",
+    "Mindestens fünf Jahre",
+    "ausschließlich vor Ort"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GermanLetter",
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^[A-F][0-9]{2}$"
+    },
+    "language": {
+      "type": "string",
+      "const": "de"
+    },
+    "letter_de": {
+      "type": "string"
+    },
+    "facts_used": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_review_required": {
+      "type": "boolean",
+      "const": true
+    }
+  },
+  "required": [
+    "case_id",
+    "language",
+    "letter_de",
+    "facts_used",
+    "human_review_required"
+  ],
+  "additionalProperties": false
+}

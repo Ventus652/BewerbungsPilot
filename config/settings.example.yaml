@@ -1,0 +1,21 @@
+application:
+  environment: local
+  language: fr
+  log_level: INFO
+
+paths:
+  private_data: data/private
+  generated_data: data/generated
+  logs: logs
+  templates: templates
+
+safety:
+  require_human_review_for_letters: true
+  require_confirmation_before_submission: true
+  allow_real_browser_actions: false
+  allow_external_connectors: false
+  never_invent_missing_facts: true
+  reject_truncated_model_output: true
+  require_fact_traceability: true
+  require_attachment_identity_check: true
+  require_submission_receipt: true

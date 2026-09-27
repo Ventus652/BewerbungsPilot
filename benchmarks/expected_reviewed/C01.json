@@ -1,0 +1,15 @@
+{
+  "case_id": "C01",
+  "result": "UNKNOWN_OR_REVIEW",
+  "must_include": [
+    "absence de preuve pour Spring Boot/AWS/Kubernetes en production",
+    "ne pas transformer Vert.x en Spring Boot",
+    "demander confirmation si réponse chiffrée obligatoire"
+  ],
+  "must_not_claim": [
+    "années positives inventées",
+    "AWS avancé",
+    "Kubernetes avancé"
+  ],
+  "critical_hallucination": true
+}

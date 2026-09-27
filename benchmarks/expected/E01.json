@@ -1,0 +1,32 @@
+{
+  "case_id": "E01",
+  "json_only": true,
+  "required_keys": [
+    "company",
+    "title",
+    "location",
+    "employment_type",
+    "weekly_hours",
+    "technologies",
+    "required_languages",
+    "publication_date",
+    "unknown_fields"
+  ],
+  "expected_values": {
+    "company": "Nordstern Test IT UG",
+    "title": "Werkstudent Python/SQL (m/w/d)",
+    "location": "Berlin / remote innerhalb Deutschlands",
+    "employment_type": "Werkstudent",
+    "publication_date": null
+  },
+  "required_members": {
+    "technologies": [
+      "Python",
+      "SQL"
+    ],
+    "unknown_fields": [
+      "publication_date"
+    ]
+  },
+  "no_extra_keys": true
+}

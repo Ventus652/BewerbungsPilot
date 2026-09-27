@@ -1,0 +1,36 @@
+{
+  "case_id": "A02",
+  "company": "Pixelpfad AG",
+  "title": "Werkstudent:in Frontend (React/TypeScript)",
+  "location": "Frankfurt am Main (hybrid)",
+  "employment_type": "Werkstudent",
+  "weekly_hours": "15–20",
+  "technologies_required": [
+    "React",
+    "TypeScript"
+  ],
+  "technologies_mentioned": [
+    "React",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "UI-Tests",
+    "Git"
+  ],
+  "required_languages": [
+    "Deutsch: gut",
+    "Englisch: gut"
+  ],
+  "publication_date": null,
+  "unknown_fields": [
+    "publication_date"
+  ],
+  "hard_requirements": [
+    "React",
+    "TypeScript"
+  ],
+  "evidence_fragments": [
+    "15 bis 20 Stunden",
+    "Keine Datumsangabe zur Veröffentlichung"
+  ]
+}

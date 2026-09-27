@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JobExtraction",
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^[A-F][0-9]{2}$"
+    },
+    "company": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "employment_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "weekly_hours": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "technologies_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "technologies_mentioned": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "hard_requirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unknown_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_fragments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "case_id",
+    "company",
+    "title",
+    "location",
+    "employment_type",
+    "weekly_hours",
+    "technologies_required",
+    "technologies_mentioned",
+    "required_languages",
+    "publication_date",
+    "hard_requirements",
+    "unknown_fields",
+    "evidence_fragments"
+  ],
+  "additionalProperties": false
+}

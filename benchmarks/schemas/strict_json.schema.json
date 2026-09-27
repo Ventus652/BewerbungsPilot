@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StrictJobExtractionE01",
+  "type": "object",
+  "properties": {
+    "company": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "employment_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "weekly_hours": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "technologies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "unknown_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "company",
+    "title",
+    "location",
+    "employment_type",
+    "weekly_hours",
+    "technologies",
+    "required_languages",
+    "publication_date",
+    "unknown_fields"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,35 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><title>Werkstudent Software Developer (m/w/d) | TEST</title></head>
+<body>
+<!-- Structure copied from the live Personio form seen on 27/09/2026 (fictional company, no real data). -->
+<h1>Wir freuen uns auf deine Bewerbung! (FIKTIVE TESTSEITE)</h1>
+<form id="apply" onsubmit="event.preventDefault(); window.submissions=(window.submissions||0)+1;">
+  <p>Name*</p>
+  <label for="field-first_name" style="position:absolute;left:-9999px">Vorname</label><input id="field-first_name" name="first_name">
+  <label for="field-last_name" style="position:absolute;left:-9999px">Nachname</label><input id="field-last_name" name="last_name">
+  <label for="field-email">E-Mail*<br><span style="font-size:0">(erforderlich)</span></label><input id="field-email" type="email" name="email">
+  <label for="field-phone">Telefon*<br><span style="font-size:0">(erforderlich)</span></label><input id="field-phone" name="phone">
+  <label for="field-available_from">Verfügbar ab*<br><span style="font-size:0">(erforderlich)</span></label><input id="field-available_from" name="available_from">
+  <label for="field-custom_attribute_1">GitHub-Profil - Beispielprojekt*<br><span style="font-size:0">(erforderlich)</span></label><input id="field-custom_attribute_1" name="custom_attribute_1">
+  <label for="field-custom_attribute_2">Wie sind deine Deutschkenntnisse?*<br><span style="font-size:0">(erforderlich)</span></label>
+  <select id="field-custom_attribute_2"><option value="">Bitte auswählen</option><option value="o1">Grundlegend</option><option value="o2">Fortgeschritten</option><option value="o3">Fließend</option></select>
+  <label for="field-custom_attribute_3">Wie sind deine Englischkenntnisse?*<br><span style="font-size:0">(erforderlich)</span></label>
+  <select id="field-custom_attribute_3"><option value="">Bitte auswählen</option><option value="o4">Grundlegend</option><option value="o5">Fortgeschritten</option><option value="o6">Fließend</option></select>
+  <h2>Dokumente</h2>
+  <div><div><b>Lebenslauf</b>*</div><button type="button">Datei hinzufügen</button><input type="file" id="doc-input-cv" name="documents.cv" multiple style="display:none"><ul class="files"></ul></div>
+  <div><div><b>Anschreiben</b> (Optional)</div><button type="button">Datei hinzufügen</button><input type="file" id="doc-input-cover-letter" name="documents.cover-letter" multiple style="display:none"><ul class="files"></ul></div>
+  <div><div><b>Arbeitszeugnis</b> (Optional)</div><button type="button">Datei hinzufügen</button><input type="file" id="doc-input-employment-reference" name="documents.employment-reference" multiple style="display:none"><ul class="files"></ul></div>
+  <div><div><b>Arbeitsprobe</b> (Optional)</div><button type="button">Datei hinzufügen</button><input type="file" id="doc-input-work-sample" name="documents.work-sample" multiple style="display:none"><ul class="files"></ul></div>
+  <button type="submit">Bewerbung senden</button>
+</form>
+<script>
+// Like Personio: the chosen file moves into the page's own list and the input is cleared.
+for (const input of document.querySelectorAll('input[type=file]')) {
+  input.addEventListener('change', () => {
+    const list = input.parentElement.querySelector('.files');
+    const names = [...input.files].map(f => f.name); input.value = '';
+    const busy = document.createElement('p'); busy.textContent = 'Dateien werden hochgeladen ...'; list.appendChild(busy);
+    setTimeout(() => { busy.remove(); for (const n of names) { const li = document.createElement('li'); li.textContent = n; list.appendChild(li); } }, 400);
+  });
+}
+</script>
+</body></html>

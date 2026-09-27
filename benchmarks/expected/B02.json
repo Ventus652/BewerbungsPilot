@@ -1,0 +1,22 @@
+{
+  "case_id": "B02",
+  "decision": "REVIEW",
+  "score_band": [
+    45,
+    79
+  ],
+  "must_include": [
+    "Python/SQL présents",
+    "Frankfurt/hybrid accepté",
+    "Cloud-ETL pratique non confirmée",
+    "heures et date de début à vérifier"
+  ],
+  "must_not_claim": [
+    "AWS expertise",
+    "expérience professionnelle ETL"
+  ],
+  "missing_information": [
+    "maximal weekly hours",
+    "start date"
+  ]
+}

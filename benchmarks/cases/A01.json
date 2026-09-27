@@ -1,0 +1,7 @@
+{
+  "id": "A01",
+  "group": "A",
+  "kind": "job_extraction",
+  "task": "Extraire les champs de cette annonce fictive allemande. Ne pas combler les inconnues.",
+  "input": "Softwerk Mitte GmbH – Werkstudent Java Backend (m/w/d), Gießen (hybrid). 16–20 Std./Woche während des Semesters. Aufgaben: Java-Services, REST-APIs und SQL-Abfragen. Kenntnisse in Java und SQL erforderlich; Vert.x und MQTT sind von Vorteil. Immatrikulation notwendig. Deutsch: sehr gut. Beginn ab 15.10.2026. Veröffentlicht am 22.09.2026."
+}

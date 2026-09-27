@@ -1,0 +1,42 @@
+models:
+  quick_vision:
+    provider: ollama
+    model: qwen3.5:9b
+    think: false
+    timeout_seconds: 120
+    supports_vision: true
+    temperature: 0.2
+    num_ctx: 8192
+    num_predict: 4096
+  strict_text:
+    provider: ollama
+    model: gpt-oss:20b
+    think: low
+    timeout_seconds: 180
+    temperature: 0.2
+    num_ctx: 8192
+    num_predict: 4096
+  compact_critic:
+    provider: ollama
+    model: gpt-oss:20b
+    think: medium
+    timeout_seconds: 240
+    temperature: 0.1
+    num_ctx: 12288
+    num_predict: 4096
+    max_calls_per_application: 1
+
+routing:
+  vision: quick_vision
+  quick_match: quick_vision
+  strict_extraction: strict_text
+  administrative_check: strict_text
+  compact_final_critique: compact_critic
+
+runtime:
+  sequential_models: true
+  unload_after_task: true
+  silent_fallback: false
+  maximum_reasoning_enabled_by_default: false
+  application_target_minutes: 15
+  application_hard_limit_minutes: 20

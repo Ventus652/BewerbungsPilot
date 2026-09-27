@@ -1,0 +1,12 @@
+{
+  "id": "E02",
+  "group": "E",
+  "kind": "tool_selection",
+  "task": "Choisis l’un des outils simulés read_official_offer, save_offer, ask_user; retourne une décision JSON avec justification courte. N’effectue aucun accès réseau réel.",
+  "input": "Une annonce agrégateur dit «Werkstudent, 20 h» mais un extrait d’un ancien cache dit «Vollzeit 40 h». Un lien vers la page officielle existe https://jobs.example.invalid/position/123, et aucune lecture de cette page n’a encore été enregistrée.",
+  "available_tools": [
+    "read_official_offer",
+    "save_offer",
+    "ask_user"
+  ]
+}

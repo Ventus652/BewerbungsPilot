@@ -1,0 +1,7 @@
+{
+  "id": "A03",
+  "group": "A",
+  "kind": "job_extraction",
+  "task": "Extraire sans transformer une date relative en date absolue vérifiée.",
+  "input": "AnalyseWerk UG – Studentische Aushilfe Data & ML, Marburg/hybrid. 12–20 Std./Woche. Python, Pandas und saubere Datenaufbereitung sind notwendig. Erfahrung mit Modellen in PyTorch ist wünschenswert, keine Voraussetzung. Englisch gut; Deutsch nicht zwingend. Online-Anzeige: \"vor 2 Tagen\" (ohne verifizierbaren Erstellungszeitpunkt)."
+}

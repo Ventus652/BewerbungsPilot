@@ -1,0 +1,7 @@
+{
+  "id": "A02",
+  "group": "A",
+  "kind": "job_extraction",
+  "task": "Extraire les champs. Une date absente doit rester inconnue.",
+  "input": "Pixelpfad AG sucht Werkstudent:in Frontend (React/TypeScript), Frankfurt am Main, hybrid. Einsatz 15 bis 20 Stunden pro Woche. Aufgaben: React-Komponenten, TypeScript, HTML/CSS, UI-Tests. Erwartet werden React und TypeScript; Git ist hilfreich. Gute Deutsch- und Englischkenntnisse. Bewerbungen über die Karriereseite. Keine Datumsangabe zur Veröffentlichung."
+}

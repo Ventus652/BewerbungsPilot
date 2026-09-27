@@ -1,0 +1,16 @@
+{
+  "case_id": "C02",
+  "result": "AWAITING_USER",
+  "must_include": [
+    "validité actuelle ne prouve pas la situation sur toute l’année 2027",
+    "renouvellement non confirmé",
+    "validation humaine avant réponse/soumission"
+  ],
+  "must_not_claim": [
+    "autorisation garantie après 14.11.2026",
+    "renouvellement obtenu",
+    "oui automatique",
+    "avis juridique définitif"
+  ],
+  "critical_hallucination": true
+}

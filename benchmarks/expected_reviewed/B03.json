@@ -1,0 +1,17 @@
+{
+  "case_id": "B03",
+  "decision": "REJECT",
+  "score_band": [
+    0,
+    30
+  ],
+  "must_include": [
+    "40 h obligatoires",
+    "Hamburg non accepté en présentiel",
+    "5 ans expérience pro .NET absents",
+    "pas de contrat Werkstudent"
+  ],
+  "must_not_claim": [
+    "C#/.NET confirmé"
+  ]
+}

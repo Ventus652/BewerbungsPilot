@@ -1,0 +1,35 @@
+{
+  "case_id": "A01",
+  "company": "Softwerk Mitte GmbH",
+  "title": "Werkstudent Java Backend (m/w/d)",
+  "location": "Gießen (hybrid)",
+  "employment_type": "Werkstudent",
+  "weekly_hours": "16–20",
+  "technologies_required": [
+    "Java",
+    "SQL"
+  ],
+  "technologies_mentioned": [
+    "Java",
+    "REST-APIs",
+    "SQL",
+    "Vert.x",
+    "MQTT"
+  ],
+  "required_languages": [
+    "Deutsch: sehr gut"
+  ],
+  "publication_date": "2026-09-22",
+  "hard_requirements": [
+    "immatrikuliert",
+    "Java",
+    "SQL",
+    "Deutsch: sehr gut"
+  ],
+  "unknown_fields": [],
+  "evidence_fragments": [
+    "16–20 Std./Woche",
+    "Kenntnisse in Java und SQL erforderlich",
+    "Veröffentlicht am 22.09.2026"
+  ]
+}

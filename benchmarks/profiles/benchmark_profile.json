@@ -1,0 +1,60 @@
+{
+  "notice": "Profil minimal de TEST, sans nom ni contact, fondé sur des compétences/projets documentés; pas une base de vérité personnelle. Le scénario C02 contient une date fictive de condition administrative pour tester le refus de deviner.",
+  "identity": "Candidat de test (anonymisé)",
+  "education": "Étudiant en Bachelor Informatik dans une Hochschule allemande, fin prévisionnelle septembre 2027; poursuite de Master envisagée.",
+  "availability": "15 octobre 2026",
+  "weekly_hours": 20,
+  "regions_on_site": [
+    "Gießen",
+    "Wetzlar",
+    "Marburg",
+    "Frankfurt",
+    "Darmstadt"
+  ],
+  "hybrid_or_remote": true,
+  "skills_confirmed": [
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "React",
+    "HTML",
+    "CSS",
+    "Vert.x",
+    "REST",
+    "MQTT",
+    "SQL",
+    "MariaDB",
+    "Git",
+    "Docker (bases)",
+    "Linux (bases)",
+    "Pandas",
+    "NumPy",
+    "PyTorch (projets académiques)",
+    "CNN (projets académiques)"
+  ],
+  "not_confirmed_as_advanced": [
+    "Spring Boot",
+    "AWS",
+    "Kubernetes",
+    "Terraform",
+    "C#/.NET",
+    "Cloud professionnel",
+    "DevOps professionnel"
+  ],
+  "projects": {
+    "QuizArena": "Java, Vert.x, MariaDB, API REST, MQTT, Docker et ESP32; projet Java/backend/full-stack.",
+    "Stream Club": "React et TypeScript; projet frontend/web.",
+    "Data / Machine Learning": "Analyse/prévisions avec Python; classification d’images avec CNN et PyTorch."
+  },
+  "languages": [
+    "français (langue maternelle)",
+    "allemand (très bon)",
+    "anglais (bon)"
+  ],
+  "policy": [
+    "N’invente jamais expérience, diplôme, niveau de langue CECR ni autorisation administrative.",
+    "Sur les données incertaines/sensibles, signaler et demander une validation humaine.",
+    "Ne jamais marquer une candidature envoyée sans preuve."
+  ]
+}

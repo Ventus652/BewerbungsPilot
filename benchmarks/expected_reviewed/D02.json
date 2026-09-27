@@ -1,0 +1,25 @@
+{
+  "case_id": "D02",
+  "language": "de",
+  "human_review_required": true,
+  "required_facts": [
+    "Stream Club",
+    "React",
+    "TypeScript",
+    "Frontend",
+    "20 Stunden pro Woche"
+  ],
+  "must_not_claim": [
+    "Next.js confirmé",
+    "expérience professionnelle React inventée",
+    "niveau CECR inventé",
+    "permis/titre de séjour"
+  ],
+  "rubric": [
+    "naturalité DE",
+    "adaptation à frontend",
+    "fidélité",
+    "longueur <= 1 page",
+    "pas de texte générique"
+  ]
+}

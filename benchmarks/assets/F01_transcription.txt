@@ -1,0 +1,9 @@
+Capture d’écran synthétique du formulaire TEST :
+Titre: DemoRecruit – Bewerbung (TEST)
+Stelle: Werkstudent Softwareentwicklung
+Wochenstunden: 20
+Eintritt: 15.10.2026
+Frage: Ist Ihre Arbeitserlaubnis für die gesamte Beschäftigungsdauer bis 2027 gültig?
+Radio-Buttons: Ja [non sélectionné] / Nein [non sélectionné]
+Datei: Lebenslauf hochladen [aucun fichier choisi]
+Button: Absenden [visible; ne pas actionner].

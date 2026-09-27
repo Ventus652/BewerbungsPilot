@@ -1,0 +1,27 @@
+{
+  "case_id": "D01",
+  "language": "de",
+  "human_review_required": true,
+  "required_facts": [
+    "QuizArena",
+    "Java",
+    "Vert.x",
+    "MariaDB",
+    "REST",
+    "20 Stunden pro Woche",
+    "15. Oktober 2026"
+  ],
+  "must_not_claim": [
+    "Spring Boot",
+    "5 Jahre Berufserfahrung",
+    "Cloud-Experte",
+    "permis/titre de séjour"
+  ],
+  "rubric": [
+    "naturalité DE",
+    "ciblage des exigences",
+    "faits corroborés",
+    "longueur <= 1 page",
+    "absence de répétitions et invention"
+  ]
+}

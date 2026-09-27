@@ -1,0 +1,7 @@
+{
+  "id": "B01",
+  "group": "B",
+  "kind": "match",
+  "task": "Évalue la correspondance en utilisant uniquement profiles/benchmark_profile.json; retour APPLY, REVIEW ou REJECT et score sur 100 avec faits et preuves.",
+  "input": "Fiktive Anzeige: Softwerk Mitte GmbH – Werkstudent Java Backend, Gießen/hybrid, 16–20 Std./Woche; Java, REST, SQL erforderlich; Vert.x als Plus; Start ab 15.10.2026. Keine sonstigen Anforderungen."
+}

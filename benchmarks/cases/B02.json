@@ -1,0 +1,7 @@
+{
+  "id": "B02",
+  "group": "B",
+  "kind": "match",
+  "task": "Évalue et signale les inconnues importantes plutôt que de forcer APPLY/REJECT.",
+  "input": "Fiktive Anzeige: Werkstudent Data Engineering, Frankfurt/hybrid. Python und SQL erforderlich. Praxiserfahrung in Cloud-ETL wäre sehr willkommen, aber nicht verpflichtend. Arbeitszeiten nach Absprache; die maximale Wochenstundenzahl und ein genauer Starttermin stehen nicht in der Anzeige. Eigenständige Pipeline-Entwicklung im Team."
+}

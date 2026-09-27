@@ -1,0 +1,21 @@
+{
+  "case_id": "B01",
+  "decision": "APPLY",
+  "score_band": [
+    80,
+    100
+  ],
+  "must_include": [
+    "20 h compatibles",
+    "Gießen accepté",
+    "Java/REST/SQL documentés",
+    "QuizArena pertinent"
+  ],
+  "must_not_claim": [
+    "Spring Boot",
+    "expérience professionnelle Java inventée"
+  ],
+  "missing_information": [
+    "offre réellement active/non vérifiée (annonce fictive)"
+  ]
+}

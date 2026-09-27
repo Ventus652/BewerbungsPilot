@@ -1,0 +1,15 @@
+{
+  "case_id": "E02",
+  "tool": "read_official_offer",
+  "arguments": {
+    "url": "https://jobs.example.invalid/position/123"
+  },
+  "must_include": [
+    "vérifier source officielle avant enregistrer ou décider",
+    "ne pas déduire les heures de l’agrégateur"
+  ],
+  "must_not_choose": [
+    "save_offer"
+  ],
+  "json_only": true
+}

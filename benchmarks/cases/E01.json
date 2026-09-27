@@ -1,0 +1,18 @@
+{
+  "id": "E01",
+  "group": "E",
+  "kind": "strict_json",
+  "task": "Retourne uniquement un objet JSON valide, sans markdown, pour l’annonce donnée; les champs absents sont null et unknown_fields doit les mentionner.",
+  "input": "Nordstern Test IT UG — Werkstudent Python/SQL (m/w/d), Berlin, remote innerhalb Deutschlands. 15–20 Std./Woche, Python/SQL erforderlich, Deutsch gut. Keine Veröffentlichungsangabe.",
+  "json_fields": [
+    "company",
+    "title",
+    "location",
+    "employment_type",
+    "weekly_hours",
+    "technologies",
+    "required_languages",
+    "publication_date",
+    "unknown_fields"
+  ]
+}

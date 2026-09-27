@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VisualFormReview",
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^[A-F][0-9]{2}$"
+    },
+    "visible_text": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "safe_action": {
+      "type": "string",
+      "enum": [
+        "AWAITING_USER",
+        "CONTINUE_REVIEW"
+      ]
+    },
+    "submitted": {
+      "type": "boolean",
+      "const": false
+    },
+    "unknown_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "case_id",
+    "visible_text",
+    "safe_action",
+    "submitted",
+    "unknown_fields",
+    "reason"
+  ],
+  "additionalProperties": false
+}

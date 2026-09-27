@@ -1,0 +1,34 @@
+{
+  "case_id": "A03",
+  "company": "AnalyseWerk UG",
+  "title": "Studentische Aushilfe Data & ML",
+  "location": "Marburg (hybrid)",
+  "employment_type": "Studentische Aushilfe",
+  "weekly_hours": "12–20",
+  "technologies_required": [
+    "Python",
+    "Pandas"
+  ],
+  "technologies_mentioned": [
+    "Python",
+    "Pandas",
+    "PyTorch"
+  ],
+  "required_languages": [
+    "Englisch: gut"
+  ],
+  "publication_date": null,
+  "unknown_fields": [
+    "publication_date_absolute"
+  ],
+  "hard_requirements": [
+    "Python",
+    "Pandas",
+    "saubere Datenaufbereitung",
+    "Englisch: gut"
+  ],
+  "evidence_fragments": [
+    "PyTorch ist wünschenswert, keine Voraussetzung",
+    "vor 2 Tagen"
+  ]
+}

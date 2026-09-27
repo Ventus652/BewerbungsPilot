@@ -1,0 +1,9 @@
+{
+  "job_extraction": "job_extraction.schema.json",
+  "match": "match.schema.json",
+  "truthfulness": "truthfulness.schema.json",
+  "german_letter": "german_letter.schema.json",
+  "strict_json": "strict_json.schema.json",
+  "tool_selection": "tool_selection.schema.json",
+  "vision": "vision.schema.json"
+}

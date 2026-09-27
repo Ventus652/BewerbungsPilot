@@ -1,0 +1,7 @@
+{
+  "id": "D01",
+  "group": "D",
+  "kind": "german_letter",
+  "task": "Rédige une lettre de motivation en allemand, naturelle, une page maximum, à partir du profil de test seulement; aucune donnée de contact réelle.",
+  "input": "Softwerk Mitte GmbH — Werkstudent Java Backend, Gießen/hybrid, Java, REST et SQL; 16–20 h/semaine. Utiliser QuizArena pour relier Java, Vert.x, MariaDB, REST, MQTT. Disponibilité 15.10.2026 / 20 h si pertinente."
+}
